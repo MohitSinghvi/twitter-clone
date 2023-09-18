@@ -1,6 +1,13 @@
 # TwitterClone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
+This is an application which call APIs backend APIs of https://github.com/MohitSinghvi/twitter-clone-service, which internally calls the twitter v2 APIs to authenticate, create and delete the tweets on behalf of the logged in twitter user.
+<br>
+The Application has a login page which redirects user to Twitter page, where user can authenticate with their twitter credentials after which the user is again redirected to create tweet page.
+<br>
+After login, user can write a tweet and post it, and also delete it on this user interface.
+<br>
+Unit testing of the APIs is done using Karma for Angular.
+<br>
 
 ## Development server
 
