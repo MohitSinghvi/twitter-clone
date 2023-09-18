@@ -1,0 +1,27 @@
+
+<!-- <input type="text" [(ngModel)]="tweetContent">
+<button (click)="tweet()">Tweet</button>
+
+<input type="text" [(ngModel)]="tweetId">
+<button (click)="deleteTweet()">Tweet</button> -->
+<h1>Twitter Clone</h1>
+<div style="padding: 20px;" class="form-group">
+    <h2>Create Tweet</h2>
+    <!-- <label for="exampleFormControlTextarea1">Example textarea</label> -->
+    <textarea style = "width: 50%" class="form-control" id="exampleFormControlTextarea1" placeholder="Write a tweet.."  rows="3" [(ngModel)]="tweetContent"></textarea>
+    <br>
+    <p *ngIf="tweetSucess">Tweet Created Sucessfully, with ID: {{createdId}}</p>
+    <button type="button" class="btn btn-primary" (click)="tweet()" >Tweet</button>
+    <!-- <button (click)="tweet()">Tweet</button> -->
+
+    <br>
+    <br>
+    <hr>
+    <h2>Delete Tweet</h2>
+
+    <input type="text" style = "width: 50%" class="form-control" id="formGroupExampleInput" placeholder="TweetId" [(ngModel)]="tweetId">
+
+    <p *ngIf="tweetDeleteSucess">Tweet Deleted Sucessfully</p>
+    <br>
+    <button type="button" class="btn btn-dark" (click)="deleteTweet()">Delete</button>
+</div>
