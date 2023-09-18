@@ -1,6 +1,6 @@
 # TwitterClone
 
-This is an application which call APIs backend APIs of https://github.com/MohitSinghvi/twitter-clone-service, which internally calls the twitter v2 APIs to authenticate, create and delete the tweets on behalf of the logged in twitter user.
+This is an application which call backend APIs of https://github.com/MohitSinghvi/twitter-clone-service, which internally calls the twitter v2 APIs to authenticate, create and delete the tweets on behalf of the logged in twitter user.
 <br>
 The Application has a login page which redirects user to Twitter page, where user can authenticate with their twitter credentials after which the user is again redirected to create tweet page.
 <br>
